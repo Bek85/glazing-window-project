@@ -1198,7 +1198,7 @@ textarea:focus {
   }
 
   .header {
-    height: 12rem;
+    height: auto;
   }
 
   .header .logo {
