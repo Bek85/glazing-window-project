@@ -23,5 +23,9 @@
     "gulp": "^4.0.2",
     "webpack": "^4.41.2",
     "webpack-stream": "^5.2.1"
+  },
+  "dependencies": {
+    "jqeury": "^0.0.1-security",
+    "slick-carousel": "^1.8.1"
   }
 }
