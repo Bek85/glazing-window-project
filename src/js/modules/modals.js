@@ -10,6 +10,7 @@ const modals = () => {
 
         modal.style.display = 'block';
         document.body.style.overflow = 'hidden';
+        // document.body.classList.remove('modal-open');
       });
     });
 
@@ -31,6 +32,7 @@ const modals = () => {
     '.popup_engineer',
     '.popup_engineer .popup_close'
   );
+  bindModal('.phone_link', '.popup', '.popup .popup_close');
 };
 
 export default modals;
