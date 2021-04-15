@@ -11,6 +11,13 @@ const modals = () => {
       modal.style.display = 'none';
       document.body.style.overflow = '';
     });
+
+    modal.addEventListener('click', (e) => {
+      if (e.target === modal) {
+        modal.style.display = 'none';
+        document.body.style.overflow = '';
+      }
+    });
   }
 
   const callEngineerBtn = document.querySelector('.popup_engineer_btn');
