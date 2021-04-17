@@ -29,12 +29,12 @@ const modals = () => {
     });
   }
 
-  function showModalByTime(selector, time) {
-    setTimeout(() => {
-      document.querySelector(selector).style.display = 'block';
-      document.body.style.overflow = 'hidden';
-    }, time);
-  }
+  // function showModalByTime(selector, time) {
+  //   setTimeout(() => {
+  //     document.querySelector(selector).style.display = 'block';
+  //     document.body.classList.remove('modal-open');
+  //   }, time);
+  // }
 
   bindModal(
     '.popup_engineer_btn',
