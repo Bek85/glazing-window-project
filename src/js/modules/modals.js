@@ -29,12 +29,12 @@ const modals = () => {
     });
   }
 
-  // function showModalByTime(selector, time) {
-  //   setTimeout(() => {
-  //     document.querySelector(selector).style.display = 'block';
-  //     document.body.classList.remove('modal-open');
-  //   }, time);
-  // }
+  function showModalByTime(selector, time) {
+    setTimeout(() => {
+      document.querySelector(selector).style.display = 'block';
+      document.body.classList.remove('modal-open');
+    }, time);
+  }
 
   bindModal(
     '.popup_engineer_btn',
@@ -43,7 +43,7 @@ const modals = () => {
   );
   bindModal('.phone_link', '.popup', '.popup .popup_close');
 
-  showModalByTime('.popup', 60000);
+  // showModalByTime('.popup', 60000);
 };
 
 export default modals;
